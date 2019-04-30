@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    // Setting composite to true causes the build to fail.
+    // due to structure of dependency
+    "composite": false,
+    "outDir": "dist",
+    "baseUrl": "dist",
+    "target": "es2015",
+    "inlineSources": true,
+    "inlineSourceMap": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedParameters": true,
+    "allowUnreachableCode": false,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "strictFunctionTypes": true,
+    "alwaysStrict": true,
+    "strictPropertyInitialization": true,
+
+    "preserveConstEnums": false,
+    "declarationMap": true,
+    "newLine": "LF",
+    "traceResolution": false,
+    "module": "commonjs",
+    "jsx": "preserve",
+  },
+  "include": [
+    "src",
+    "test"
+  ],
+  "exclude": [
+    "sanity",
+    "dist",
+    "node_modules"
+  ]
+}

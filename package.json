@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "repro-composite-build-issue",
+  "scripts": {
+    "compile": "tsc --build"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.8",
+    "fs-tree-diff": "^2.0.0",
+    "typescript": "^3.4.5"
+  }
+}
